@@ -1,0 +1,6 @@
+<%= @category.name %>
+<ul>
+  <% @category.subcategories.each do |subcategory| %>
+    <li><%= subcategory.name %></li>
+  <% end %>
+</ul>

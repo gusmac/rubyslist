@@ -6,5 +6,5 @@ Rails.application.routes.draw do
     resources :subcategories
   end
   resources :subcategories
-
+  resources :listings
 end

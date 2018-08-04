@@ -1,4 +1,4 @@
-<%= @category.name %>
+<h2><%= @category.name %></h2>
 <ul>
   <% @category.subcategories.each do |subcategory| %>
     <li><%= link_to subcategory.name, subcategory_path(subcategory) %></li>

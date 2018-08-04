@@ -1,5 +1,7 @@
 <h1>All Categories & Subcategories</h1>
 
+<p><%= link_to 'New Listing', new_listing_path %></p>
+
 <ul>
   <% @categories.each do |category| %>
     <li><%= link_to category.name, category_path(category) %><%=  %></li>
